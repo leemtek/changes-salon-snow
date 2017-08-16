@@ -9,7 +9,20 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<style>
+	.comments-link  { display: block; }
+	time.updated { display: none; }
+	.entry-content { margin-top: 20px; }
+</style>
+
+<article id="post-<?php the_ID(); ?>" <?php post_class(""); ?>>
+	<!-- ======================================================================
+		Thumbnail
+	====================================================================== -->
+	<?php if(has_post_thumbnail()) { ?>
+		<?php the_post_thumbnail('post-thumbnail', array( 'class' => "img-responsive full-img")); ?>
+	<?php } ?>
+
 	<header class="entry-header">
 		<?php
 		if ( is_single() ) :
@@ -27,18 +40,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php
-			the_content( sprintf(
-				/* translators: %s: Name of current post. */
-				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'snow-theme' ), array( 'span' => array( 'class' => array() ) ) ),
-				the_title( '<span class="screen-reader-text">"', '"</span>', false )
-			) );
-
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'snow-theme' ),
-				'after'  => '</div>',
-			) );
-		?>
+		<?php the_excerpt(); ?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

@@ -49,7 +49,7 @@ function snow_theme_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( esc_html__( ', ', 'snow-theme' ) );
 		if ( $categories_list && snow_theme_categorized_blog() ) {
-			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'snow-theme' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+			printf( '<span class="cat-links"><i class="fa fa-bookmark" aria-hidden="true"></i>' . esc_html__( ' %1$s', 'snow-theme' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 		}
 
 		/* translators: used between list items, there is a space after the comma */
@@ -60,7 +60,7 @@ function snow_theme_entry_footer() {
 	}
 
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-		echo '<span class="comments-link">';
+		echo '<span class="comments-link"><i class="fa fa-commenting-o" aria-hidden="true"></i> ';
 		/* translators: %s: post title */
 		comments_popup_link( sprintf( wp_kses( __( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'snow-theme' ), array( 'span' => array( 'class' => array() ) ) ), get_the_title() ) );
 		echo '</span>';
@@ -69,10 +69,10 @@ function snow_theme_entry_footer() {
 	edit_post_link(
 		sprintf(
 			/* translators: %s: Name of current post */
-			esc_html__( 'Edit %s', 'snow-theme' ),
+			esc_html__( 'Edit', 'snow-theme' ),
 			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
-		'<span class="edit-link">',
+		'<span class="edit-link" style="display: block; margin-top: 20px;"><i class="fa fa-pencil" aria-hidden="true"></i> ',
 		'</span>'
 	);
 }

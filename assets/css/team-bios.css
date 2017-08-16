@@ -1,0 +1,52 @@
+/* ------------------------------------------
+    TEAM BIOS
+------------------------------------------ */
+#team-bio {
+    padding: 3% 0 5% 0;
+}
+
+#team-bio #filterOptions li {
+    -webkit-box-shadow: 0px 0.9px 1px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0.9px 1px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0.9px 1px 0px rgba(0,0,0,0.25);
+    margin: 0px 8px 10px 0px;
+    border-radius: 4px;
+}
+
+#team-bio #filterOptions > li a {
+    color: #333;
+}
+
+#team-bio #filterOptions > li a:hover {
+    text-decoration: none;
+    background: #333333;
+    color: #fff;
+}
+
+#team-bio #filterOptions > li a:focus {
+    background: #d52349;
+    color: #fff;
+}
+
+#team-bio .grid {
+    padding-left: 0px;
+    list-style: none;
+}
+
+#team-bio #bio-pic {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#team-bio #bio-job {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+}
+
+#team-bio #border-img {
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px
+}

@@ -1,0 +1,56 @@
+/* ------------------------------------------
+    ABOUT US
+------------------------------------------ */
+
+#about-us {
+    margin: 30px 0 15px;
+}
+
+#about-us #main {
+    width: 100%;
+}
+
+#about-us li > p {
+    font-size: 15px;
+}
+
+#about-us #rewards {
+    padding-top: 15px;
+}
+
+#about-us #rewards img {
+    margin: 0 30px;
+    padding-bottom: 15px;
+}
+
+#about-us button {
+    font-size: 15px;
+    padding: 8px 18px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border: 0px;
+    background: #252122;
+}
+
+#about-us button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#about-us strong {
+    letter-spacing: 1px;
+}
+
+#about-us #we-will {
+    font-size: 18px;
+    color:#c51349;
+}
+
+#about-us #sub-menu a {
+    color: #d52349;
+    text-decoration: underline;
+}
+
+#about-us #sub-menu a:hover {
+    text-decoration: none;
+}
