@@ -26,7 +26,7 @@ get_header(); ?>
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fchangessalon.com%2Fdiablo-magazine-best-east-bay%2F&h=ATO2ddY041bttw5t3F7i3VyAkJR2ytvNIfcNA0pX9HkM05_DkOaRwz2-5z4qdHy0HjyeBcvys55rc9WAwZahJBb1ZGNTGyaZ6BFCPuzhVx01poFzjnoy_Kr4"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/img/promos/20180303_vote.jpg" alt="Vote Best for Best Salon and Day Spa" /></a>
+                            <a href="/diablo-magazine-best-east-bay/"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/img/promos/20180303_vote.jpg" alt="Vote Best for Best Salon and Day Spa" /></a>
                         </div>
                       
                         <div class="item">
