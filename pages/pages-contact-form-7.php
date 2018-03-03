@@ -1,6 +1,6 @@
 <?php
 /*
-    Template Name: Full Page
+    Template Name: Contact Form 7
 */
 
 /* ================================================================================
@@ -39,7 +39,7 @@ get_header(); ?>
 	/* Massage */
 	.massage:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/massage.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/massage.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -49,7 +49,7 @@ get_header(); ?>
 	/* Spa Body Therapies */
 	.spa-body-therapies:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/body.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/body.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -59,7 +59,7 @@ get_header(); ?>
 	/* Skin Care */
 	.skin-care:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/skin.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/skin.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -69,7 +69,7 @@ get_header(); ?>
 	/* Medi Treatment */
 	.medi-treatments:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/medi.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/medi.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -79,7 +79,7 @@ get_header(); ?>
 	/* Nails */
 	.nails:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/nails.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/nails.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -89,7 +89,7 @@ get_header(); ?>
 	/* Hair Removal */
 	.hair-removal:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/removal.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/removal.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -99,7 +99,7 @@ get_header(); ?>
 	/* Packages */
 	.packages:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/packages.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/packages.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -109,7 +109,7 @@ get_header(); ?>
 	/* Memberships */
 	.memberships:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/membership.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/membership.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -119,7 +119,7 @@ get_header(); ?>
 	/* Group Events */
 	.group-events:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/event-spa.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/event-spa.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -153,7 +153,7 @@ get_header(); ?>
 	/* Hair Services */
 	.massage:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/hair.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/hair.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -163,7 +163,7 @@ get_header(); ?>
 	/* Weddings & Special Events */
 	.spa-body-therapies:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/weddings.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/weddings.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -173,7 +173,7 @@ get_header(); ?>
 	/* Nails */
 	.skin-care:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/nails.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/nails.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -183,7 +183,7 @@ get_header(); ?>
 	/* Make-Up */
 	.medi-treatments:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/makeup.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/makeup.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -193,7 +193,7 @@ get_header(); ?>
 	/* Hair Removal */
 	.nails:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/removal.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/removal.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -203,7 +203,7 @@ get_header(); ?>
 	/* Especially For Men */
 	.hair-removal:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/men.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/men.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -213,7 +213,7 @@ get_header(); ?>
 	/* Packages */
 	.packages:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/packages.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/packages.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -223,7 +223,7 @@ get_header(); ?>
 	/* VIP Program */
 	.memberships:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/vip.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/vip.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -233,13 +233,20 @@ get_header(); ?>
 	/* Group Events */
 	.group-events:hover {
   	background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48) ),
-    url('https://changessalon.com/wp-content/uploads/2017/09/events-salon.jpg');
+    url('https://changessalon.leemtek.com/wp-content/uploads/2017/09/events-salon.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 	}
 </style>
+
+<script>
+	// Forwards to a thank you page when email is sent.
+	document.addEventListener( 'wpcf7mailsent', function( event ) {
+		location = "/email-sent";
+	}, false );
+</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 

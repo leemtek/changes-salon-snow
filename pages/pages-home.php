@@ -70,6 +70,48 @@ get_header(); ?>
                 <h1 class="font-30 text-center">WALNUT CREEK'S PREMIERE SALON &amp; DAY SPA</h1>
                 <p>Changes Salon and Day Spa is a unique venue to relax, de-stress and get gorgeous.  At Changes, we are dedicated to providing the most innovative beauty and wellness services in a beautiful and relaxing environment. With 18 hair stations, 11 treatment rooms, a semi-private pedicure room with a 16 foot water wall, Aqua Terra relaxation room, men’s and women’s locker rooms with steam lounges and 60 talented team members we will meet all your salon and spa needs.   Centrally located at the corner of Lincoln and N. Broadway in Downtown Walnut Creek, visit us and find out why Changes has been voted The Best of The East Bay over 50 times.</p>
             </div><!-- /col -->
+            
+            <!-- Sugar & Spice -->
+            <!--
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                      <div class="panel-heading text-bold text-center" style="background-color: #A20505; border-color: #780505;"><h2 class="text-bold" style="font-size: 20px; margin: 0px; color: #fff;">Sugar &amp; Spice Holiday Party</h2></div>
+                      <div class="panel-body">
+                          <div class="text-center">A benefit for:</div>  
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/img/promos/2017-logo-stand.png" class="img-responsive center-block space-bottom-20" style="width: 200px;" />
+                          <div class="space-bottom-20 text-center text-bold">One-Night-Only Gift Card Specials!</div>
+                          <div class="space-bottom-20">Your ticket includes:</div>
+                          <ul class="space-bottom-20">
+                              <li>Light bites, cheerful beverages and delicious desserts from Walnut Creek’s hottest eateries.</li>
+                              <li>One Mini Salon or Spa Treatment.</li>
+                              <li>One Entry to win prizes valued at over $2,000 including a Mini Getaway Spa Package for two at Changes Salon &amp; Day Spa, a 2-night stay at the Westin St Francis, S.F. and more.</li>
+                          </ul>
+
+                          <div>December 1</div>
+                          <div class="space-bottom-20">4:30 p.m. to 7:30 p.m.</div>
+
+                          <div class="row space-bottom-20">
+                              <div class="col-lg-6">
+                                  <h3 class="text-bold" style="font-size: 16px;">Location:</h3>
+                                  <div>1475 N. Broadway</div>
+                                  <div>Walnut Creek, CA 94596</div>
+                                  <div class="space-bottom-40">(925) 947-1814</div>
+                              </div>
+
+                              <div class="col-lg-6">
+                                  <h3 class="text-bold" style="font-size: 16px;">TICKETS $25</h3>
+                                  <div>Available at Changes or online by clicking the button below.</div>
+                                  <div>Net proceeds of ticket sales go to STAND!</div>
+                              </div>
+                          </div>
+
+                          <div class="space-bottom-20 text-center"><a href="http://saas.shopsite.com/chan13/page2.html" target="_blank" class="btn btn-primary">Purchase Today!</a></div>
+
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/img/promos/2017-sugarandspice-sponsors.png" class="img-responsive center-block" alt="Sugar & Spice Sponsors" />
+                      </div>
+                    </div>
+                </div>
+            -->
         </div><!-- /row -->
     </div><!-- /container -->
 </section>

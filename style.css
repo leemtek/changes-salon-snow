@@ -27,6 +27,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Global
     ## Footer Buttons
 # Blog
+# WordPress
 # Spa Services
 # Sugar & Spice
 # Before Your Changes
@@ -326,6 +327,13 @@ body {
 
 
 /* ------------------------------------------
+# WordPress
+------------------------------------------ */
+img.alignleft { float: left; padding: 0px 20px 0px 10px; }
+img.alignright { float: right; padding: 0px 10px 0px 20px; }
+
+
+/* ------------------------------------------
 # Spa Services
 ------------------------------------------ */
 .spa-services-box { border: thin solid #a7a7a7 !important; }
@@ -408,6 +416,7 @@ body {
 .space-top-20 { margin-top: 20px; }
 .space-top-30 { margin-top: 30px; }
 .space-top-40 { margin-top: 40px; }
+.space-bottom-5 { margin-bottom: 5px; }
 .space-bottom-10 { margin-bottom: 10px; }
 .space-bottom-20 { margin-bottom: 20px; }
 .space-bottom-30 { margin-bottom: 30px; }
@@ -434,7 +443,7 @@ body {
 
 /* ## Positioning */
 .vertical-middle { vertical-align: middle; }
-
+.aligncenter { margin: auto; }
 
 
 

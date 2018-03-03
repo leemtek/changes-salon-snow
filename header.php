@@ -12,6 +12,16 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71667411-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-71667411-1');
+	</script>
+	
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -48,8 +58,32 @@
 	<link href="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/css/leemtek.css" rel="stylesheet">
 
 	<!-- Facebook Pixels -->
-	<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/assets/includes/facebook-pixels.html"); ?>
+	<!-- <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/includes/facebook-pixels.html"></script> -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window,
+			document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
 
+		fbq('init', '322109854650003');
+		fbq('track', "PageView");
+	</script>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=322109854650003&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
 
 	<?php wp_head(); ?>
 </head>

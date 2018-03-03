@@ -98,11 +98,42 @@
 				</a>
 			</div>
 			<div class="col-md-4">
-				<p>Web Development by <a href="http://www.leemtek.com" target="_blank">LeemTek</a></p>
+				<p>Web Development by <a href="http://www.duaneleem.com" target="_blank">Duane Leem</a></p>
 			</div>
 		</div>
 	</div>
 </section>
+
+<!-- ===============================================
+    Promotion
+=============================================== -->
+<?php $promotionPage = 1118; ?>
+<?php if (get_field("isActivatedPromotion", $promotionPage) === true) { ?>
+	<style>
+		/* Makes room for Promo */
+		body { padding-bottom: 54px; }
+		
+		/* Properties of red callout on footer. */
+		#page-footer-wrapper {
+			position: fixed !important;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: #A20505; 
+			border-color: #780505;
+			z-index: 100;
+		} /* #page-footer-wrapper */
+	</style>
+
+	<div id="page-footer-wrapper">
+		<div class="row" style="padding: 10px;">
+			<div class="col-lg-12 text-white text-center">
+				<?php echo get_field("verbiage", $promotionPage) ?> <a class="btn btn-primary" href="<?php echo get_field("landing_page_url", $promotionPage) ?>" onclick="trackOutboundLink('Promotions', '<?php echo get_field("verbiage", $promotionPage) ?>'); return false;"><?php echo get_field("button_label", $promotionPage) ?></a>
+			</div><!-- /col -->
+		</div><!-- /row -->
+	</div><!-- /#page-footer-wrapper -->
+<?php } ?>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/bower_components/jQuery/dist/jquery.min.js"></script>

@@ -162,6 +162,13 @@ class MainNav_Walker extends Walker_Nav_Menu {
     } // start_el()
 } // MainNav_Walker
 
+/**
+ * Declare WooCommerce support.
+ */
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+add_action( "after_setup_theme", "woocommerce_support" );
 
 /**
  * Implement the Custom Header feature.
