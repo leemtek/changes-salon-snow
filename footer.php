@@ -119,16 +119,23 @@
 			left: 0;
 			right: 0;
 			bottom: 0;
-			background-color: #A20505; 
-			border-color: #780505;
+			background-color: <?php echo get_field("promo_background_color", $promotionPage) ?>; 
+			border-color: <?php echo get_field("promo_background_color", $promotionPage) ?>;
 			z-index: 100;
 		} /* #page-footer-wrapper */
+		
+		/* Button Properties */
+		.cs-btn-primary {
+			color: <?php echo get_field("promo_button_font_color", $promotionPage) ?>;
+			background-color: <?php echo get_field("promo_button_color", $promotionPage) ?>;
+			border-color: <?php echo get_field("promo_button_color", $promotionPage) ?>;
+		}
 	</style>
 
 	<div id="page-footer-wrapper">
 		<div class="row" style="padding: 10px;">
 			<div class="col-lg-12 text-white text-center">
-				<?php echo get_field("verbiage", $promotionPage) ?> <a class="btn btn-primary" href="<?php echo get_field("landing_page_url", $promotionPage) ?>" onclick="trackOutboundLink('Promotions', '<?php echo get_field("verbiage", $promotionPage) ?>'); return false;"><?php echo get_field("button_label", $promotionPage) ?></a>
+				<?php echo get_field("verbiage", $promotionPage) ?> <a class="btn cs-btn-primary" href="<?php echo get_field("landing_page_url", $promotionPage) ?>" onclick="trackOutboundLink('Promotions', '<?php echo get_field("verbiage", $promotionPage) ?>'); return false;"><?php echo get_field("button_label", $promotionPage) ?></a>
 			</div><!-- /col -->
 		</div><!-- /row -->
 	</div><!-- /#page-footer-wrapper -->
