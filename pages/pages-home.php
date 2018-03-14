@@ -157,11 +157,100 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="firstcol col-md-9">
-                <h2 class="blog-heading">From Our Blog</h2>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2 class="blog-heading">From Our Blog</h2>
+                  </div>
+                </div>
+              
+                <div id="blog-posts-row" class="row">
+                  <style>
+                    /* On screens that are 1200px or more, set the background color to blue */
+                    @media screen and (min-width: 1200px) {
+                      #blog-posts-row img { padding: 0px 0px 20px 0px; }
+                      #blog-posts-row > article h2 { font-size: 16px; }
 
-                <!-- start feedwind code -->
-                <script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "https://changessalon.wordpress.com/feed/",rssmikle_frame_width: "100%",rssmikle_frame_height: "400",frame_height_by_article: "0",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "Off",rssmikle_title: "on",rssmikle_title_sentence: "",rssmikle_title_link: "https://changessalon.wordpress.com/",rssmikle_title_bgcolor: "#4D4D4D",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#3B3B3B",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#666666",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M %p",item_description_style: "text+tn",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; width:300px;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.--></div>
-                <!-- end feedwind code -->
+                      .section-blog-img {
+                            position: absolute;
+                            clip: rect(0px,262px,200px,0px);
+                            width:262px;
+                      }
+
+                      #blog-posts-row div.panel.panel-default { padding-top: 180px; }
+                    }
+                    
+                    
+                  </style>
+                  
+                  <article class="col-md-4">
+                    <div>
+                      <img class="img-responsive section-blog-img" src="https://changessalon.files.wordpress.com/2018/03/29196473_10155231365647882_909327353467895808_n.jpg" alt="28782651_10155216638067882_6060512473167953920_o" />
+                    </div>
+                    <div class="panel panel-default" style="padding-top: 170px;">
+                      <div class="panel-body">
+                        <h2>Finding Balance</h2>
+                        
+                        <p>Can you believe it’s Mid March?? Was one of your goals this year to find balance in your life?</p>
+                      </div>
+                      
+                      <div class="panel-footer">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <small>March 14, 2018</small>
+                          </div>
+                          
+                          <div class="col-lg-6 text-right">
+                            <a class="btn btn-default btn-xs" href="https://changessalon.wordpress.com/" target="_blank">View Post</a>
+                          </div>
+                        </div>
+                      </div><!-- /panel-footer -->
+                    </div>
+                  </article><!-- /col -->
+                  
+                  <article class="col-md-4">
+                    <img class="img-responsive section-blog-img" src="https://changessalon.files.wordpress.com/2018/03/28782651_10155216638067882_6060512473167953920_o.jpg" alt="28782651_10155216638067882_6060512473167953920_o" />
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+                        <h2>Finding Balance</h2>
+                        
+                        <p>Changes is seeking Massage Therapists and an office Admin to join our team!</p>
+                      </div>
+                      
+                      <div class="panel-footer">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <small>March 14, 2018</small>
+                          </div>
+                          
+                          <div class="col-lg-6 text-right">
+                            <a class="btn btn-default btn-xs" href="https://changessalon.wordpress.com/" target="_blank">View Post</a>
+                          </div>
+                        </div>
+                    </div>
+                  </article><!-- /col -->
+                  
+                  <article class="col-md-4">
+                    <img class="img-responsive section-blog-img" src="https://changessalon.files.wordpress.com/2018/03/28516787_10155304013703093_3335181281871551079_o.jpg?w=423&h=423&crop=1&zoom=2" alt="28782651_10155216638067882_6060512473167953920_o" />
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+                        <h2>Finding Balance</h2>
+                        
+                        <p>A few members of our hair team headed to New York earlier this month to attend Bumble And Bumble’s backstage class and...</p>
+                      </div>
+                      
+                      <div class="panel-footer">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <small>March 14, 2018</small>
+                          </div>
+                          
+                          <div class="col-lg-6 text-right">
+                            <a class="btn btn-default btn-xs" href="https://changessalon.wordpress.com/" target="_blank">View Post</a>
+                          </div>
+                        </div>
+                    </div>
+                  </article><!-- /col -->
+                </div>
             </div>
             <div class="secondcol col-md-3">
                 <div>
