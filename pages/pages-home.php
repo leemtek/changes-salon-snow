@@ -195,80 +195,39 @@ get_header(); ?>
                   
                   <?php
                     // TODO: Retrieve WP JSON
+                    $wordPressData_json = file_get_contents("https://public-api.wordpress.com/rest/v1.1/sites/changessalon.wordpress.com/posts/?number=3");
                   
                     // TODO: Convert to PHP array.
+                    $objWordPressData = json_decode($wordPressData_json, true);
                   
                     // TODO: Iterate through PHP array.
+                    for ($i = 0; $i < 3; $i++) { ?>
+                      <article class="col-md-4">
+                        <div>
+                          <img class="img-responsive section-blog-img" src="<?php echo $objWordPressData["posts"][$i]["post_thumbnail"]["URL"]; ?>" alt="28782651_10155216638067882_6060512473167953920_o" />
+                        </div>
+                        <div class="panel panel-default" style="padding-top: 170px;">
+                          <div class="panel-body">
+                            <h2><?php echo $objWordPressData["posts"][$i]["title"]; ?></h2>
+
+                            <p><?php echo substr($objWordPressData["posts"][$i]["excerpt"], 0, 100); ?></p>
+                          </div>
+
+                          <div class="panel-footer">
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <small><?php echo date("M d, Y", strtotime($objWordPressData["posts"][$i]["date"])); ?> </small>
+                              </div>
+
+                              <div class="col-lg-6 text-right">
+                                <a class="btn btn-default btn-xs" href="<?php echo $objWordPressData["posts"][$i]["URL"]; ?>" target="_blank">View Post</a>
+                              </div>
+                            </div>
+                          </div><!-- /panel-footer -->
+                        </div>
+                      </article><!-- /col -->
+                    <?php } // while($objWordPressData["posts"] <= 3)
                   ?>
-                  
-                  <article class="col-md-4">
-                    <div>
-                      <img class="img-responsive section-blog-img" src="https://changessalon.files.wordpress.com/2018/03/29196473_10155231365647882_909327353467895808_n.jpg" alt="28782651_10155216638067882_6060512473167953920_o" />
-                    </div>
-                    <div class="panel panel-default" style="padding-top: 170px;">
-                      <div class="panel-body">
-                        <h2>Finding Balance</h2>
-                        
-                        <p>Can you believe it’s Mid March?? Was one of your goals this year to find balance in your life?</p>
-                      </div>
-                      
-                      <div class="panel-footer">
-                        <div class="row">
-                          <div class="col-lg-6">
-                            <small>March 14, 2018</small>
-                          </div>
-                          
-                          <div class="col-lg-6 text-right">
-                            <a class="btn btn-default btn-xs" href="https://changessalon.wordpress.com/" target="_blank">View Post</a>
-                          </div>
-                        </div>
-                      </div><!-- /panel-footer -->
-                    </div>
-                  </article><!-- /col -->
-                  
-                  <article class="col-md-4">
-                    <img class="img-responsive section-blog-img" src="https://changessalon.files.wordpress.com/2018/03/28782651_10155216638067882_6060512473167953920_o.jpg" alt="28782651_10155216638067882_6060512473167953920_o" />
-                    <div class="panel panel-default">
-                      <div class="panel-body">
-                        <h2>Join Team Changes</h2>
-                        
-                        <p>Changes is seeking Massage Therapists and an office Admin to join our team!</p>
-                      </div>
-                      
-                      <div class="panel-footer">
-                        <div class="row">
-                          <div class="col-lg-6">
-                            <small>March 14, 2018</small>
-                          </div>
-                          
-                          <div class="col-lg-6 text-right">
-                            <a class="btn btn-default btn-xs" href="https://changessalon.wordpress.com/" target="_blank">View Post</a>
-                          </div>
-                        </div>
-                    </div>
-                  </article><!-- /col -->
-                  
-                  <article class="col-md-4">
-                    <img class="img-responsive section-blog-img" src="https://changessalon.files.wordpress.com/2018/03/28516787_10155304013703093_3335181281871551079_o.jpg?w=423&h=423&crop=1&zoom=2" alt="28782651_10155216638067882_6060512473167953920_o" />
-                    <div class="panel panel-default">
-                      <div class="panel-body">
-                        <h2>The Upgraded Braid By Nicole</h2>
-                        
-                        <p>A few members of our hair team headed to New York earlier this month to attend Bumble And Bumble’s backstage class and...</p>
-                      </div>
-                      
-                      <div class="panel-footer">
-                        <div class="row">
-                          <div class="col-lg-6">
-                            <small>March 14, 2018</small>
-                          </div>
-                          
-                          <div class="col-lg-6 text-right">
-                            <a class="btn btn-default btn-xs" href="https://changessalon.wordpress.com/" target="_blank">View Post</a>
-                          </div>
-                        </div>
-                    </div>
-                  </article><!-- /col -->
                 </div><!-- /row -->
                     
                 <div class="row">
