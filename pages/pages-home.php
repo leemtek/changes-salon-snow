@@ -165,21 +165,32 @@ get_header(); ?>
               
                 <div id="blog-posts-row" class="row">
                   <style>
+                    @media screen and (max-width: 991px) {
+                      #blog-posts-row .section-blog-img { padding: 0px 0px 20px 0px; width: 100%; }
+                    }
+                    
+                    @media screen and (max-width: 1199px) {
+                      #blog-posts-row .section-blog-img { padding: 0px 0px 20px 0px; width: 100%; }
+                    }
+                    
                     /* On screens that are 1200px or more, set the background color to blue */
                     @media screen and (min-width: 1200px) {
-                      #blog-posts-row img { padding: 0px 0px 20px 0px; }
+                      #blog-posts-row img { padding: 0px 0px 20px 0px; display: block; }
                       #blog-posts-row > article h2 { font-size: 16px; }
 
                       .section-blog-img {
-                            position: absolute;
-                            clip: rect(0px,262px,200px,0px);
-                            width:262px;
+                          position: absolute;
+                          clip: rect(0px,262px,200px,0px);
+                          width:262px;
                       }
 
                       #blog-posts-row div.panel.panel-default { padding-top: 180px; }
+                    } /* @media screen and (min-width: 1200px) */
+                    
+                    #button-view-blog {
+                      background-color: #000;
+                      color: #fff !important;
                     }
-                    
-                    
                   </style>
                   
                   <article class="col-md-4">
@@ -250,7 +261,13 @@ get_header(); ?>
                         </div>
                     </div>
                   </article><!-- /col -->
-                </div>
+                </div><!-- /row -->
+                    
+                <div class="row">
+                  <div class="col-lg-12">
+                    <a id="button-view-blog" class="btn btn-default btn-lg" href="https://changessalon.wordpress.com">View Our Blog</a>
+                  </div>
+                </div><!-- /row -->
             </div>
             <div class="secondcol col-md-3">
                 <div>
