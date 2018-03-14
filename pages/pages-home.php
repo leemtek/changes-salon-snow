@@ -193,6 +193,14 @@ get_header(); ?>
                     }
                   </style>
                   
+                  <?php
+                    // TODO: Retrieve WP JSON
+                  
+                    // TODO: Convert to PHP array.
+                  
+                    // TODO: Iterate through PHP array.
+                  ?>
+                  
                   <article class="col-md-4">
                     <div>
                       <img class="img-responsive section-blog-img" src="https://changessalon.files.wordpress.com/2018/03/29196473_10155231365647882_909327353467895808_n.jpg" alt="28782651_10155216638067882_6060512473167953920_o" />
@@ -222,7 +230,7 @@ get_header(); ?>
                     <img class="img-responsive section-blog-img" src="https://changessalon.files.wordpress.com/2018/03/28782651_10155216638067882_6060512473167953920_o.jpg" alt="28782651_10155216638067882_6060512473167953920_o" />
                     <div class="panel panel-default">
                       <div class="panel-body">
-                        <h2>Finding Balance</h2>
+                        <h2>Join Team Changes</h2>
                         
                         <p>Changes is seeking Massage Therapists and an office Admin to join our team!</p>
                       </div>
@@ -244,7 +252,7 @@ get_header(); ?>
                     <img class="img-responsive section-blog-img" src="https://changessalon.files.wordpress.com/2018/03/28516787_10155304013703093_3335181281871551079_o.jpg?w=423&h=423&crop=1&zoom=2" alt="28782651_10155216638067882_6060512473167953920_o" />
                     <div class="panel panel-default">
                       <div class="panel-body">
-                        <h2>Finding Balance</h2>
+                        <h2>The Upgraded Braid By Nicole</h2>
                         
                         <p>A few members of our hair team headed to New York earlier this month to attend Bumble And Bumble’s backstage class and...</p>
                       </div>
