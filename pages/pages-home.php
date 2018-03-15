@@ -169,8 +169,17 @@ get_header(); ?>
                       #blog-posts-row .section-blog-img { padding: 0px 0px 20px 0px; width: 100%; }
                     }
                     
-                    @media screen and (max-width: 1199px) {
-                      #blog-posts-row .section-blog-img { padding: 0px 0px 20px 0px; width: 100%; }
+                    @media screen and (min-width: 992px) {
+                      #blog-posts-row img { padding: 0px 0px 20px 0px; display: block; }
+                      #blog-posts-row > article h2 { font-size: 16px; }
+
+                      .section-blog-img {
+                          position: absolute;
+                          clip: rect(0px,212px,200px,0px);
+                          width: 250px;
+                      }
+
+                      #blog-posts-row div.panel.panel-default { padding-top: 180px; }
                     }
                     
                     /* On screens that are 1200px or more, set the background color to blue */
@@ -188,7 +197,7 @@ get_header(); ?>
                     } /* @media screen and (min-width: 1200px) */
                     
                     #button-view-blog {
-                      background-color: #000;
+                      background-color: #252122;
                       color: #fff !important;
                     }
                   </style>
@@ -206,9 +215,9 @@ get_header(); ?>
                         <div>
                           <img class="img-responsive section-blog-img" src="<?php echo $objWordPressData["posts"][$i]["post_thumbnail"]["URL"]; ?>" alt="28782651_10155216638067882_6060512473167953920_o" />
                         </div>
-                        <div class="panel panel-default" style="padding-top: 170px;">
+                        <div class="panel panel-default" style="padding-top: 180px;">
                           <div class="panel-body">
-                            <h2><?php echo $objWordPressData["posts"][$i]["title"]; ?></h2>
+                            <h2><strong><?php echo $objWordPressData["posts"][$i]["title"]; ?></strong></h2>
 
                             <p><?php echo substr($objWordPressData["posts"][$i]["excerpt"], 0, 100); ?></p>
                           </div>
@@ -220,7 +229,13 @@ get_header(); ?>
                               </div>
 
                               <div class="col-lg-6 text-right">
-                                <a class="btn btn-default btn-xs" href="<?php echo $objWordPressData["posts"][$i]["URL"]; ?>" target="_blank">View Post</a>
+                                <a class="btn btn-default btn-xs" 
+                                   href="<?php echo $objWordPressData["posts"][$i]["URL"]; ?>"
+                                   style="
+                                    background-color: #252122;
+                                    color: #fff;
+                                   "
+                                   target="_blank">View Post</a>
                               </div>
                             </div>
                           </div><!-- /panel-footer -->
@@ -232,7 +247,7 @@ get_header(); ?>
                     
                 <div class="row">
                   <div class="col-lg-12">
-                    <a id="button-view-blog" class="btn btn-default btn-lg" href="https://changessalon.wordpress.com">View Our Blog</a>
+                    <a id="button-view-blog" class="btn btn-default" href="https://changessalon.wordpress.com">View Our Blog</a>
                   </div>
                 </div><!-- /row -->
             </div>
