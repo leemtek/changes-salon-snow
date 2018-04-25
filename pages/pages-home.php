@@ -25,31 +25,38 @@ get_header(); ?>
                         <li data-target="#carousel-example-generic" data-slide-to="7"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
+                      <?php if (get_field("promo_enable") === true) { ?>
                         <div class="item active">
-                            <a href="/diablo-magazine-best-east-bay/"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/img/promos/20180303_vote.jpg" alt="Vote Best for Best Salon and Day Spa" /></a>
+                          <a href="<?php echo get_field("promo_url"); ?>"><img src="<?php echo get_field("promo_banner"); ?>" alt="Mother's Day" /></a>
                         </div>
                       
                         <div class="item">
-                            <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/walnut-creek-salon-spa.jpg" alt="Walnut Creek Salon Spa">
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/walnut-creek-salon-spa.jpg" alt="Walnut Creek Salon Spa">
                         </div>
-                        <div class="item">
-                            <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/changes-salon-lounge-spa.jpg" alt="Changes Salon Lounge Spa">
+                      <?php } else { ?>
+                        <div class="item active">
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/walnut-creek-salon-spa.jpg" alt="Walnut Creek Salon Spa">
                         </div>
-                        <div class="item">
-                            <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/spa-relaxation.jpg" alt="Spa Relaxation">
-                        </div>
-                        <div class="item">
-                            <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/changes-salon-garden.jpg" alt="Changes Salon Garden">
-                        </div>
-                        <div class="item">
-                            <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/salon-treatment-waxing.jpg" alt="Salon Treatment Waxing">
-                        </div>
-                        <div class="item">
-                            <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/changes-salon-massage.jpg" alt="Changse Salon Massage">
-                        </div>
-                        <div class="item">
-                            <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/changes-waxing-facial.jpg" alt="Changes Waxing Facial">
-                        </div>
+                      <?php } ?>
+                      
+                      <div class="item">
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/changes-salon-lounge-spa.jpg" alt="Changes Salon Lounge Spa">
+                      </div>
+                      <div class="item">
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/spa-relaxation.jpg" alt="Spa Relaxation">
+                      </div>
+                      <div class="item">
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/changes-salon-garden.jpg" alt="Changes Salon Garden">
+                      </div>
+                      <div class="item">
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/salon-treatment-waxing.jpg" alt="Salon Treatment Waxing">
+                      </div>
+                      <div class="item">
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/changes-salon-massage.jpg" alt="Changse Salon Massage">
+                      </div>
+                      <div class="item">
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/2016/images/changes-waxing-facial.jpg" alt="Changes Waxing Facial">
+                      </div>
                     </div>
                     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
