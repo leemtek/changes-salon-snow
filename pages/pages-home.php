@@ -27,7 +27,7 @@ get_header(); ?>
                     <div class="carousel-inner" role="listbox">
                       <?php if (get_field("promo_enable") === true) { ?>
                         <div class="item active">
-                          <a href="<?php echo get_field("promo_url"); ?>"><img src="<?php echo get_field("promo_banner"); ?>" alt="Mother's Day" /></a>
+                          <a href="<?php echo get_field("promo_url"); ?>"><img src="<?php echo get_field("promo_banner"); ?>" alt="Mother's Day" style="width: 1140px; height: auto;" /></a>
                         </div>
                       
                         <div class="item">
