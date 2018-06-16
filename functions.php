@@ -139,7 +139,7 @@ class MainNav_Walker extends Walker_Nav_Menu {
 			// Check if item is a parent item.
 			if ($args->walker->has_children) {
 				// This is a parent item and I will add a caret.
-				$output .= sprintf( '<li class="dropdown"><a href="' . $item->url . '" class="dropdown-toggle text-uppercase">' . $item->title . '<span class="caret"></span></a>',
+				$output .= sprintf( '<li class="dropdown"><a href="' . $item->url . '" class="dropdown-toggle text-uppercase" data-toggle="dropdown">' . $item->title . '<span class="caret"></span></a>',
 					$item->url,
 					( $item->object_id === get_the_ID() ) ? ' class="current"' : '',
 					$item->title
