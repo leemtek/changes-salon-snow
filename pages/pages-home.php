@@ -3,6 +3,11 @@
     Template Name: Home Page
 */
 
+/* ================================================================================
+    WordPress Post Fields | Content
+================================================================================ */
+$objThePost = get_post();
+
 get_header(); ?>
 
 <!-- Required Styles -->
@@ -80,7 +85,7 @@ get_header(); ?>
             <!-- welcome message -->
             <div class="col-lg-12">
                 <h1 class="font-30 text-center">WALNUT CREEK'S PREMIERE SALON &amp; DAY SPA</h1>
-                <p>Changes Salon and Day Spa is a unique venue to relax, de-stress and get gorgeous.  At Changes, we are dedicated to providing the most innovative beauty and wellness services in a beautiful and relaxing environment. With 18 hair stations, 11 treatment rooms, a semi-private pedicure room with a 16 foot water wall, Aqua Terra relaxation room, men’s and women’s locker rooms with steam lounges and 60 talented team members we will meet all your salon and spa needs.   Centrally located at the corner of Lincoln and N. Broadway in Downtown Walnut Creek, visit us and find out why Changes has been voted The Best of The East Bay over 50 times.</p>
+                <p><?php echo apply_filters('the_content', $objThePost->post_content); ?></p>
             </div><!-- /col -->
             
             <!-- Sugar & Spice -->
